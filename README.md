@@ -1,20 +1,17 @@
-# 📈 Time Series Analysis & Forecasting with Python
+# Time Series Analysis and Modeling
 
-A step-by-step guide and implementation covering fundamental to intermediate Time Series concepts, statistical modeling, machine learning techniques, and practical case studies.
+A comprehensive repository containing data, exploratory data analysis (EDA), and machine learning notebooks for analyzing time series data. This project explores key concepts in time series analysis, including autocorrelation, partial autocorrelation, and random walk models.
 
 ---
 
 ## 📁 Repository Structure
 
 ```text
-├── Data/                   # Datasets used in notebooks and case studies
-├── Notebooks/              # Concepts and hands-on code examples
-│   ├── 01_EDA_and_Decomposition.ipynb
-│   ├── 02_Stationarity_and_Differencing.ipynb
-│   ├── 03_Smoothing_and_ARIMA.ipynb
-│   └── 04_Machine_Learning_Forecasting.ipynb
-├── Case_Studies/           # Real-world implementations
-│   ├── Sales_Forecasting.ipynb
-│   └── Stock_Trend_Analysis.ipynb
-├── requirements.txt        # Python dependencies
+.
+├── working with timeseries/
+│   ├── GOOGL_2020-04-28_to_2021-04-27.csv   # Historical Alphabet Inc. (Google) stock data
+│   ├── Index2018.csv                       # Historical financial indices dataset
+│   ├── autocorrelation.ipynb               # Notebook: Autocorrelation Analysis (ACF)
+│   ├── partial autocorrelation.ipynb       # Notebook: Partial Autocorrelation Analysis (PACF)
+│   └── random walk.ipynb                   # Notebook: Random Walk Theory & Simulations
 └── README.md
